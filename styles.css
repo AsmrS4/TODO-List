@@ -56,6 +56,11 @@ button {
     border-radius: 40px;
 }
 
+button:hover{
+    color: #111111;
+    background:gold;
+}
+
 ul li{
     list-style: none;
     cursor: pointer;
@@ -89,10 +94,16 @@ ul li.completed_task::before{
 
 ul li span{
     position: absolute;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
     color: #292929;
-    line-height: 20px;
+    border-radius: 50%;
+    line-height: 28px;
     text-align: center;
+    right: 8px;
+}
+
+ul li span:hover{
+    background-color: #edeef0;
 }
