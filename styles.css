@@ -86,3 +86,13 @@ ul li.completed_task{
 ul li.completed_task::before{
     background-color: gold;
 }
+
+ul li span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #292929;
+    line-height: 20px;
+    text-align: center;
+}
